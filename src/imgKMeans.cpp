@@ -105,26 +105,3 @@ void ImageColoring::updateImages(const int trackbarKPos, const int trackbarBlurP
 	}
 }
 
-
-//void ImageColoring::createWindows()
-//{
-//	cv::namedWindow("Original Image", cv::WINDOW_AUTOSIZE);
-//	cv::namedWindow("Blurred Image", cv::WINDOW_AUTOSIZE);
-//	cv::namedWindow("Segmented Image", cv::WINDOW_AUTOSIZE);
-//	cv::namedWindow("Contour Image", cv::WINDOW_AUTOSIZE);
-//
-//	cv::createTrackbar("GaussianBlur", "Segmented Image", &gaussianBlurSize, 299);
-//	cv::setTrackbarMin("GaussianBlur", "Segmented Image", 1);
-//
-//	cv::createTrackbar("K", "Segmented Image", &k, 20, &ImageColoring::onTrackbarStatic, this);
-//	cv::setTrackbarMin("K", "Segmented Image", 2);
-//}
-//
-//void ImageColoring::showWindows()
-//{
-//	cv::imshow("Original Image", image);
-//	cv::imshow("Blurred Image", blurredImage);
-//	cv::imshow("Segmented Image", segmentedImage);
-//	cv::imshow("Contour Image", contourImage);
-//}
-

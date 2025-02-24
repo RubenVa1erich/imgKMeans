@@ -1,7 +1,8 @@
 #pragma once
 
 #include "opencv2/highgui.hpp"
-#include "imgKMeans.h"
+
+class ImageColoring;
 
 class WindowsManager
 {

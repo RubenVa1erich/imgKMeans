@@ -1,5 +1,5 @@
 #include "windowsManager.h"
-
+#include "imgKMeans.h"
 
 
 void WindowsManager::createWindows(ImageColoring* imgColoring, int& k, int& gaussianBlurSize)
