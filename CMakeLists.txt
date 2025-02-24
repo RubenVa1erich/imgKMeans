@@ -11,8 +11,10 @@ endif()
 
 project ("imgKMeans")
 
+include_directories ("include")
+
 # Добавьте источник в исполняемый файл этого проекта.
-add_executable (imgKMeans "imgKMeans.cpp" "imgKMeans.h")
+add_executable (imgKMeans   "src/imgKMeans.cpp" "include/imgKMeans.h" "src/main.cpp" "src/imgCreator.cpp" "include/imgCreator.h" "src/windowsManager.cpp" "include/windowsManager.h")
 
 find_package(OpenCV REQUIRED)
 
